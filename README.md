@@ -95,3 +95,40 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+
+
+# React Native Image Gallery Assignment
+## Requirements
+### 1. **Fetching Images from a Public API**
+- Use an API like [Unsplash](https://unsplash.com/developers) to fetch images.
+- Display fetched images in a grid layout.
+### 2. **Infinite Scrolling**
+- Implement infinite scrolling so users can load more images as they scroll down.
+- Optimize performance by handling pagination efficiently.
+### 3. **Image Search**
+- Implement a search bar where users can enter keywords to filter images.
+- Fetch images dynamically based on user input.
+### 4. **Drag & Drop Sorting**
+- Enable users to reorder images by dragging and dropping.
+- Ensure smooth UI transitions during the drag operation.
+## Tech Stack & Guidelines
+### **Tech Stack**
+- **React Native** (latest version)
+- **Expo or CLI** (your choice)
+- **Unsplash API or any other public image API**
+- **State Management**: React Context, Redux, or Zustand (optional but recommended)
+### **Best Practices**
+- Write clean, modular, and reusable code.
+- Handle API errors and loading states properly.
+- Optimize performance for smooth scrolling and drag interactions.
+### **Bonus Features (Optional)**
+- Add animations/transitions for better UX.
+## Submission Guidelines
+- Time limit: **4 hours** (included set-up environment)
+- Design URL: [Figma](https://www.figma.com/design/BCHCfewLz0dgTQx6KS5NVE/Image-gallery---React-native-app?node-id=2-2&t=vuUCJmAKxJao8tqq-4)
+- Upload your project to a GitHub repository.
+- Include a **README.md** with setup instructions.
+- Provide a short demo video or screenshots showcasing functionality.
