@@ -1,5 +1,5 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { GalleryState, Photo } from '../../redux/types';
+import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+import {GalleryState, Photo} from '../../redux/types';
 
 const initialState: GalleryState = {
   listPhotos: [],
@@ -31,9 +31,9 @@ const gallerySlice = createSlice({
     setHasMore: (state, action: PayloadAction<boolean>) => {
       state.hasMore = action.payload;
     },
-    incrementPage: (state) => {
+    incrementPage: state => {
       state.page += 1; // Increment the page number for pagination
-    }
+    },
   },
 });
 
