@@ -1592,7 +1592,7 @@ PODS:
     - Yoga
   - RNCMaskedView (0.1.11):
     - React
-  - RNGestureHandler (2.23.1):
+  - RNGestureHandler (2.24.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1700,7 +1700,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (4.7.0):
+  - RNScreens (4.8.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1721,9 +1721,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 4.7.0)
+    - RNScreens/common (= 4.8.0)
     - Yoga
-  - RNScreens/common (4.7.0):
+  - RNScreens/common (4.8.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2072,13 +2072,13 @@ SPEC CHECKSUMS:
   ReactCommon: 08f4808f02ff115884e870e5cfea689703ff759a
   RNCAsyncStorage: a025c661a88f7db9d59d451d495decb375bb1b53
   RNCMaskedView: 4c5ee1c8667d56077246cc6d1977f77393923560
-  RNGestureHandler: 63273d6c9936df3da2461766615eade82284adac
+  RNGestureHandler: 8b1080a6db0be82dbca18550d6212b885bfab6b2
   RNReanimated: 9c3ae4545e48a890159f28e63b28a9711e9492ec
-  RNScreens: 49c7306c0b2d9e4a0da0988b99bfd7e5b33dbd3b
+  RNScreens: 40f4d6b58fa33751b8b2b5450e3595898a993ad5
   RNVectorIcons: bd818296a51dc2bb8c3bd97a3ca399df1afe216d
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 1fd059161b449018342943b095a6d4e69bcaa719
 
 PODFILE CHECKSUM: 8825f9cc4f07b05572ad821699df6c4c8c134aac
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.15.2

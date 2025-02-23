@@ -1,10 +1,10 @@
-import DashBoard from '../features/DashBoard';
-import {SCREEN_KEY} from './initScreens';
+import DashBoard from '@features/DashBoard';
+import { SCREEN_KEY } from '@navigation/initScreens';
 
 // 🔹 Main Screens
 export const MainStackScreens = [
-  {
-    name: SCREEN_KEY.DASH_BOARD,
-    component: DashBoard,
-  },
+    {
+        name: SCREEN_KEY.DASH_BOARD,
+        component: DashBoard,
+    },
 ] as const;

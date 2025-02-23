@@ -1,22 +1,26 @@
-import {IActionCallback} from '../../utils/models';
+import { IActionCallback } from '../../utils/models';
 
 export interface Photo {
-  id: string;
-  urls: {small: string};
+    id: string;
+    urls: { small: string };
 }
 
 export interface GalleryState {
-  listPhotos: Photo[];
-  searchResults: Photo[];
-  loading: boolean;
-  error: string | null;
-  hasMore: boolean;
-  page: number;
+    listPhotos: Photo[];
+    searchResults: Photo[];
+    loading: boolean;
+    error: string | null;
+    hasMore: boolean;
+    page: number;
 }
 
 export type GetPhotosPayload = {
-  params: {
-    page: number;
-    pageSize: number;
-  };
+    params: {
+        page: number;
+        per_page: number;
+    };
+} & IActionCallback;
+
+export type SaveListPhotosResponse = {
+    listPhotos: Photo[];
 } & IActionCallback;

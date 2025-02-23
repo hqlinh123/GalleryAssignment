@@ -1,20 +1,20 @@
-import {IActionCallback} from '../../utils/models';
+import { IActionCallback } from '../../utils/models';
 
 export interface AuthState {
-  isAuthenticated: boolean;
-  token: string | null;
+    isAuthenticated: boolean;
+    token: string | null;
 }
 
 export type IActionLoginPayload<T = unknown> = {
-  variables: {
-    email: string;
-    password: string;
-    deviceId?: string;
-    otp?: string;
-  };
+    variables: {
+        email: string;
+        password: string;
+        deviceId?: string;
+        otp?: string;
+    };
 } & IActionCallback<T>;
 
 export type LoginResponse = {
-  userId: number;
-  token: string;
+    userId: number;
+    token: string;
 };

@@ -1,20 +1,17 @@
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {RootStackParamList} from './types';
+import { RootStackParamList } from '@navigation/types';
+import { SCREEN_KEY } from './initScreens';
 import MainTabNavigator from './MainTabNavigator';
-import {SCREEN_KEY} from './initScreens';
 
 const MainStack = createNativeStackNavigator<RootStackParamList>();
 
 const MainNavigator = () => {
-  return (
-    <MainStack.Navigator screenOptions={{headerShown: false}}>
-      <MainStack.Screen
-        name={SCREEN_KEY.MAIN_TAB}
-        component={MainTabNavigator}
-      />
-    </MainStack.Navigator>
-  );
+    return (
+        <MainStack.Navigator screenOptions={{ headerShown: false }}>
+            <MainStack.Screen name={SCREEN_KEY.DASH_BOARD} component={MainTabNavigator} />
+        </MainStack.Navigator>
+    );
 };
 
 export default MainNavigator;

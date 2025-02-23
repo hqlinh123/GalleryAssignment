@@ -1,8 +1,10 @@
-import { combineReducers } from "@reduxjs/toolkit";
-import galleryReducer from "../features/DashBoard/gallerySlice";
+import { combineReducers } from '@reduxjs/toolkit';
+import galleryReducer from '../features/gallery/gallerySlice';
+import authReducer from '../features/auth/authSlice';
 
 const rootReducer = combineReducers({
-  gallery: galleryReducer,
+    gallery: galleryReducer,
+    auth: authReducer,
 });
 
 export default rootReducer;
